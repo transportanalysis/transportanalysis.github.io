@@ -175,7 +175,7 @@ var subwayLines = L.geoJson(null, {
   style: function (feature) {
       return {
         //color: subwayColors[feature.properties.route_id],
-        color: "#ff3135",
+        color: "#333435",
         weight: 3,
         opacity: 1
       };
