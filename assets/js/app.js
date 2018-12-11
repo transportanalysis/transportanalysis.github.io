@@ -209,7 +209,8 @@ var subwayLines = L.geoJson(null, {
     });
   }
 });
-$.getJSON("data/subways.geojson", function (data) {
+//$.getJSON("data/subways.geojson", function (data) { // line editted below PS 11/12/18
+$.getJSON("data/seq_rail.geojson", function (data) { // line editted PS 11/12/18
   subwayLines.addData(data);
 });
 
